@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Ambienti virtuali
+.venv/
+venv/
+
+# Segreti e configurazione locale: non committarli mai
+.env
+
+# Output generati
+output/
+*.xlsx
+
+# Dati di input: non committare export reali
+dati_input/
+
+# Editor / sistema operativo
+.vscode/
+.idea/
+.DS_Store
